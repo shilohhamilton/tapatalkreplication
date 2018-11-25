@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   height: 100%;
 }
@@ -18,6 +19,13 @@ a:hover,
 a:focus,
 a:active {
   color: #CFD8DC;
+}
+
+.top-bar {
+  display: flex;
+  border: solid;
+  border-color: grey;
+  border-width: 2px;
 }
 
 .top-bar img{
